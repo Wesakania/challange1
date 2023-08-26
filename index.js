@@ -1,16 +1,12 @@
-let day = "Sunday"
+//function logger (){
+//    console.log("My name is Davis")
+//}
+//logger();
 
-if(day === "Moday"){
-    console.log("plan course structure");
-    console.log("Go to coding meetup");
-}else if(day === "Tuesday"){
-    console.log("prepare theory video");
-}else if(day === "Wednesday" || day ==="Thursday"){
-    console.log("Write code example")
-}else if (day === " Friday"){
-    console.log("Record Videos")
-}else if(day === "Saturday" || day === "Sunday"){
-    console.log("Enjoy the weekend")
-}else{
-    console.log("Not a valid day")
+function fruitProcessor(Avocado,Pinapple){
+    let juice = `Bring me juice of ${Avocado} Avocados and ${Pinapple} Pinappls right away`;
+    return juice;
 }
+
+let myJuice = fruitProcessor(2,1);
+console.log(myJuice);
